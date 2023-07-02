@@ -14,31 +14,41 @@ const Portfolio = () => {
        {
           id:1,
           src:responsiveNavbar,
-          name:"Responsive Navbar"
+          name:"Responsive Navbar",
+          code:"https://github.com/tushar-2110/Resposnsive-Navbar",
+          demo:"https://resposnsive-navbar.vercel.app"
        },
     
              {
           id:2,
           src:javascriptClock,
-          name:"Javascript Clock"
+          name:"Javascript Clock",
+          code:"https://github.com/tushar-2110/javascript_clock",
+          demo:"https://javascript-clock-three.vercel.app"
        },
 
               {
           id:3,
           src:weatherApp,
-          name:"Weather App"
+          name:"Weather App",
+          code:"https://github.com/tushar-2110/react.js-weatherapp",
+          demo:"https://react-js-weatherapp.vercel.app"
        },
        
          {
           id:4,
           src:moviesApp,
-          name:"Movies App"
+          name:"Movies App",
+          code:"https://github.com/tushar-2110/Movie-App",
+          demo:"https://movie-app-zeta-two.vercel.app"
        },
 
               {
           id:5,
           src:memoriesApp,
-          name:"Memories App"
+          name:"Memories App",
+          code:"https://github.com/tushar-2110/Memories-App",
+          demo:"https://memories-app-sigma.vercel.app"
        },
 
 
@@ -47,7 +57,7 @@ const Portfolio = () => {
 
   return (
     <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800
-    w-full text-white md:h-screen">
+    w-full text-white md:h-screen ">
 
            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center 
            w-full h-full ">
@@ -67,7 +77,7 @@ const Portfolio = () => {
                  
                  
                {
-                   portfolios.map(({id,src,name})=>(
+                   portfolios.map(({id,src,name,code,demo})=>(
 
                  <div  key={id}className="shadow-md shadow-gray-600 rounded-lg ">
                 <img src={src} alt="my project" className="rounded-md duration-200
@@ -78,11 +88,12 @@ const Portfolio = () => {
 
                 <div className="flex items-center justify-center   ">
                  <button className="w-1/2 px-6 py-1 m-4 duration-200
-                 hover:scale-105">Demo
+                 hover:scale-105">
+                  <a href={demo} target="_blank" >Demo</a>
                  </button>
                  <button className="w-1/2 px-6 py-1 m-4 duration-200 
                  hover:scale-105">
-                  Code
+                  <a href={code} target="_blank" >Code</a>
                  </button>
                 </div>
                  </div>
