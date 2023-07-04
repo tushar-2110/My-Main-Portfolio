@@ -4,6 +4,7 @@ import responsiveNavbar from "../assets/portfolio/responsiveNavbar .png"
 import weatherApp from "../assets/portfolio/weatherApp.png"
 import moviesApp from "../assets/portfolio/reactMovie .png"
 import memoriesApp from "../assets/portfolio/memoriesApp.png"
+import instagramclone from "../assets/portfolio/instagram clone.webp"
 
 
 const Portfolio = () => {
@@ -50,6 +51,14 @@ const Portfolio = () => {
           code:"https://github.com/tushar-2110/Memories-App",
           demo:"https://memories-app-sigma.vercel.app"
        },
+
+       {
+           id:6,
+           src:instagramclone,
+           name:"Insatgram Clone",
+           code:"",
+           demo:""
+       }
 
 
     ]
