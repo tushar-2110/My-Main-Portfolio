@@ -57,7 +57,7 @@ const Portfolio = () => {
            src:instagramclone,
            name:"Insatgram Clone",
            code:"https://github.com/tushar-2110/Instagram-Clone",
-           demo:"https://github.com/tushar-2110/Instagram-Clone"
+           demo:"https://instagram-clone-bice-theta.vercel.app"
        }
 
 
