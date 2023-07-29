@@ -4,7 +4,7 @@ import responsiveNavbar from "../assets/portfolio/responsiveNavbar .png"
 import weatherApp from "../assets/portfolio/weatherApp.png"
 import moviesApp from "../assets/portfolio/reactMovie .png"
 import memoriesApp from "../assets/portfolio/memoriesApp.png"
-import instagramclone from "../assets/portfolio/instagram clone.webp"
+import instagramclone from "../assets/portfolio/instagramClone.png"
 
 
 const Portfolio = () => {
