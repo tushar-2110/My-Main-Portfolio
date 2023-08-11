@@ -1,12 +1,9 @@
 import React from 'react'
-import javascriptClock from "../assets/portfolio/javascriptClock.png"
-import responsiveNavbar from "../assets/portfolio/responsiveNavbar .png"
 import weatherApp from "../assets/portfolio/weatherApp.png"
-import moviesApp from "../assets/portfolio/reactMovie .png"
 import memoriesApp from "../assets/portfolio/memoriesApp.png"
 import instagramclone from "../assets/portfolio/instagramClone.png"
 import chatapp from "../assets/portfolio/chatApplication.png"
-import flipkartclone from "../assets/portfolio/flipkartClone.webp"
+import amazonclone from "../assets/portfolio/amazonClone.png"
 import youtubeclone from "../assets/portfolio/youtubeClone.png"
 
 
@@ -36,10 +33,10 @@ const Portfolio = () => {
 
               {
                 id:3,
-                src:flipkartclone,
-                name:"Flipkart Clone",
-                code:"",
-                demo:""
+                src:amazonclone,
+                name:"Amazon Clone",
+                code:"https://github.com/tushar-2110/Amazon-Clone",
+                demo:"https://amazon-clone-mu-self.vercel.app"
 
               },
 
