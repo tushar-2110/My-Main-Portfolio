@@ -14,16 +14,16 @@ const Portfolio = () => {
    
     
     
-              {
-                id:1,
-                src:instagramclone,
-                name:"Insatgram Clone",
-                code:"https://github.com/tushar-2110/Instagam-Clone",
-                demo:"https://instagam-clone-e6jj6e398-tushar-2110.vercel.app/signin"
-              },
+              // {
+              //   id:1,
+              //   src:instagramclone,
+              //   name:"Insatgram Clone",
+              //   code:"https://github.com/tushar-2110/Instagam-Clone",
+              //   demo:"https://instagam-clone-e6jj6e398-tushar-2110.vercel.app/signin"
+              // },
               
               {
-                id:2,
+                id:1,
                 src:chatapp,
                 name:"Chat Application",
                 code:"https://github.com/tushar-2110/Chat-App",
@@ -31,26 +31,26 @@ const Portfolio = () => {
 
               },
 
-              {
-                id:3,
-                src:amazonclone,
-                name:"Amazon Clone",
-                code:"https://github.com/tushar-2110/Amazon-Clone",
-                demo:"https://amazon-clone-mu-self.vercel.app"
+              // {
+              //   id:3,
+              //   src:amazonclone,
+              //   name:"Amazon Clone",
+              //   code:"https://github.com/tushar-2110/Amazon-Clone",
+              //   demo:"https://amazon-clone-mu-self.vercel.app"
 
-              },
+              // },
 
               
-              {
-                id:4,
-                src:memoriesApp,
-                name:"Memories App",
-                code:"https://github.com/tushar-2110/Memories-App",
-                demo:"https://memories-app-sigma.vercel.app"
-              },
+              // {
+              //   id:4,
+              //   src:memoriesApp,
+              //   name:"Memories App",
+              //   code:"https://github.com/tushar-2110/Memories-App",
+              //   demo:"https://memories-app-sigma.vercel.app"
+              // },
               
               {
-                id:5,
+                id:2,
                 src:youtubeclone,
                 name:"Youtube Clone",
                 code:"https://github.com/tushar-2110/Youtube-Clone",
@@ -69,7 +69,7 @@ const Portfolio = () => {
 
 
      {
-      id:6,
+      id:3,
       src:weatherApp,
       name:"Weather App",
       code:"https://github.com/tushar-2110/react.js-weatherapp",
