@@ -14,20 +14,13 @@ const About = () => {
              </div>
 
              <p className="text-xl md:mt-5 sm:mt-8">
-                  "Meet Tushar Sharma, a talented MERN stack developer who excels in full-stack development and 
-                   possesses a remarkable aptitude for problem-solving using data structures and algorithms.
-                  With a passion for building robust and efficient web applications, Tushar has honed his skills in the
-                  MERN (MongoDB, Express.js, React.js, Node.js) stack, enabling him to develop end-to-end solutions that
-                  deliver seamless user experiences. 
+                 Welcome to my digital domain! I'm Tushar Sharma, a Full Stack Web Developer deeply passionate about Node.js and React.js. Crafting seamless and captivating web experiences is my forte. Dive into my portfolio, where code meets creativity to shape the future of the web. Let's build something extraordinary together!
              </p>
 
              <br/>
 
              <p className="text-xl">
-                 Tushar's solid foundation in data structures enables him to choose the most appropriate data structures
-                  for different scenarios, allowing for efficient data manipulation and retrieval. His expertise
-                   in algorithms empowers him to devise elegant solutions, reducing time complexity and improving 
-                 overall system performance.
+                Mastery of the fundamentals is my forte, serving as the bedrock for my work in web development. With a solid understanding of core principles, I ensure that every line of code I write is not just functional but embodies efficiency and clarity. This commitment to strong fundamentals allows me to build resilient and scalable solutions, providing a reliable framework for creating exceptional web experiences.
                  
              </p>
 
